@@ -32,7 +32,8 @@
 
                     <td>
                         <a class="btn btn-success" href="categoria/editar/{{$categoria['id']}}">Editar</a>
-
+                    </td>
+                    <td>
                         <a class="btn btn-danger" href="categoria/excluir{{$categoria['id']}}">Excluir</a>
                     </td>
                 </tr>

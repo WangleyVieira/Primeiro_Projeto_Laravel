@@ -37,6 +37,7 @@
                     <td>{{ $noticia['data']}}</td>
                     <td>{{ $noticia['cidade']}}</td>
                     <td>{{ $noticia['categoria']->descricao}}</td>
+                    {{-- <td>{{ $noticia['categoria'] }}</td> --}}
 
                     <td>
                         <a class="btn btn-success" href="noticia/editar/{{$noticia['id']}}">Editar</a>
