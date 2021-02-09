@@ -28,4 +28,6 @@ Route::get('/categoria/excluir/{id}', [CategoriaController::class, 'excluir']);
 Route::post('/categoria/salvar', [CategoriaController::class, 'salvar']);
 
 Route::get('/noticia', [NoticiaController::class, 'index'])->name('noticia_lista');
-
+Route::get('/noticia/novo', [NoticiaController::class, 'novo']);
+Route::get('/noticia/editar/{id}', [NoticiaController::class, 'editar']);
+Route::get('/noticia/salvar', [NoticiaController::class, 'salvar'])->name('noticia_salvar');
